@@ -41,11 +41,7 @@ module.exports = {
       const products = await db.get('products').value();
 
       // * Check if there is an upload image
-      if (R.isNil(url)) {
-        return new Error(
-          'MISSING UPLOAD IMAGE, MAYBE INTERNAL ERROR',
-        );
-      }
+      if (R.isNil(url)) return { status: 404 };
 
       // * Check if the body has enough key names
       const yeah = await hasEnoughKeyNames([

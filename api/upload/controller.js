@@ -36,6 +36,13 @@ module.exports = {
             'NOT HAVE ENOUGH OR WRONG KEY NAMES',
           ),
         );
+      } else if (R.equals(DTO.status, 404)) {
+        next(
+          createErr(
+            404,
+            'MISSING UPLOAD IMAGE, MAYBE INTERNAL ERROR',
+          ),
+        );
       } else res.status(200).json(DTO);
     } catch (err) {
       next(
