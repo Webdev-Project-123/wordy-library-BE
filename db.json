@@ -13,15 +13,15 @@
       "bought": [
         {
           "id": 1,
-          "title": "product.title",
-          "discount": 25,
+          "title": "Collaborative Product Design",
+          "discount": 30.49,
           "quantity": 1,
           "date": "2022-01-24"
         },
         {
           "id": 2,
-          "title": "paasdadroduct.title",
-          "discount": 12.5,
+          "title": "What Is DesignOps?",
+          "discount": 20.11,
           "quantity": 1,
           "date": "2022-01-24"
         }
@@ -40,29 +40,29 @@
       "bought": [
         {
           "id": 1,
-          "title": "product.title",
-          "discount": 25,
+          "title": "Collaborative Product Design",
+          "discount": 30.49,
           "quantity": 1,
           "date": "2022-01-24"
         },
         {
           "id": 2,
-          "title": "paasdadroduct.title",
-          "discount": 12.5,
+          "title": "What Is DesignOps?",
+          "discount": 20.11,
           "quantity": 1,
           "date": "2022-01-24"
         },
         {
-          "id": 1,
-          "title": "product.title",
-          "discount": 25,
+          "id": 3,
+          "title": "What Is Service Design?",
+          "discount": 23,
           "quantity": 1,
           "date": "2022-01-24"
         },
         {
-          "id": 2,
-          "title": "paasdadroduct.title",
-          "discount": 12.5,
+          "id": 4,
+          "title": "Designing for Modern Learning",
+          "discount": 31,
           "quantity": 1,
           "date": "2022-01-24"
         }
